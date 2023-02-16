@@ -1,0 +1,24 @@
+.sidebar-wrapper{
+    background-color: rgb(175, 95, 95);
+    width: 230px;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 113px;
+    align-items: center;
+}
+
+.slide-btn{
+    position: absolute;
+    bottom: -19px;
+    left: -18px;
+    background-color: aquamarine;
+}
+
+.sidebar-none {
+    display: none;
+}

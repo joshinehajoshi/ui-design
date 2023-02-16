@@ -1,0 +1,10 @@
+.header-wrapper{
+    /* background-color: aquamarine; */
+    /* height: 100vh; */
+    display: flex;
+}
+
+.navbar {
+    width: -webkit-fill-available;
+    height: 117px;
+}
