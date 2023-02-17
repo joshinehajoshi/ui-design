@@ -1,0 +1,63 @@
+.target-wrapper{
+    border: 1px gray solid;
+    border-radius: 2px;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+.target-header-wrapper {
+    border-right: 1px gray solid;
+}
+
+.target-header{
+border-bottom: 1px gray solid;
+padding: 10px;
+}
+
+.card {
+    width: 47%;
+    margin: 11px;
+
+}
+
+.target-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.target-chart-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.target-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kebab-btn {
+    border: none;
+    background-color: white;
+}
+
+.kebab-img {
+    height: 10px;
+}
+
+.target-card-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 50%;
+} 
+
+/* .progress-bar-content {
+    width: 50%;
+}  */

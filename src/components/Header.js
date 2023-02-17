@@ -1,26 +1,26 @@
 import React, {useState} from 'react';
-import '../styles/header.css';
+import '../assets/styles/header.css';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Sidebar from './Sidebar';
+import search from '../styles/images/XMLID_223_.png';
+import notification from '../assets/images/Vector.png';
+import profile from '../assets/images/ProfilePic.png';
 
 
-function Header() {
-  const [isOpen, setIsOpen] = useState(true);
+function Header({openCloseHandler}) {
+  // const [isOpen, setIsOpen] = useState(true);
 
-  const openCloseHandler = () => {
-      setIsOpen(!isOpen)
-      console.log(isOpen)
-  }
+  // const openCloseHandler = () => {
+  //     setIsOpen(!isOpen)
+  //     console.log(isOpen)
+  // }
 
   return (
-    <div className='header-wrapper'>
-      <Sidebar isOpen={isOpen} />
-  <Navbar bg="light" expand="lg" className='navbar'>
+    <>
+      <Navbar bg="light" expand="lg" className='navbar'>
 
   <Button onClick={openCloseHandler} className="slide-btn" variant="light">#</Button>
       <Container fluid>
@@ -34,18 +34,15 @@ function Header() {
           >
           </Nav>
           <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
+          <Button><img src={search}></img></Button>
+<Button><img src={notification}></img></Button>
+<Button><img src={profile}></img></Button> 
           </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
+ 
+    </>
   )
 }
 

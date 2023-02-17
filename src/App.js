@@ -1,12 +1,10 @@
-import { Row, Col } from 'react-bootstrap';
-import './App.css';
-import Header from './components/Header';
+import "./App.css";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
-        <Header />
-        
+      <Home />
     </>
   );
 }

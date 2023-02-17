@@ -1,0 +1,28 @@
+.header-wrapper{
+    /* background-color: aquamarine; */
+    /* height: 100vh; */
+    display: flex;
+}
+
+.navbar {
+    width: -webkit-fill-available;
+    height: 117px;
+}
+
+.btn-primary {
+    /* margin-right: 50px; */
+    background-color: #E8EEFF;
+}
+.container-fluid{
+    position: relative;
+    top: 25px;
+ 
+}
+
+a {
+    font-size: 24px;
+}
+
+.h-wrapper{
+    width: -webkit-fill-available;
+}
