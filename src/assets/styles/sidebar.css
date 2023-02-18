@@ -1,5 +1,5 @@
 .sidebar-wrapper{
-    background-color: rgb(175, 95, 95);
+    background-color: rgb(214 214 214 / 69%);
     width: 230px;
     position: relative;
 }
@@ -16,7 +16,13 @@
     position: absolute;
     bottom: -19px;
     left: -18px;
-    background-color: aquamarine;
+    color: blue;
+    background-color: #eaeaea;
+}
+
+.slide-btn:hover {
+    color: #eaeaea;
+    background-color: blue;
 }
 
 .sidebar-none {
@@ -32,4 +38,13 @@
 li{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.sidebar-footer {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

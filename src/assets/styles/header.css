@@ -6,18 +6,18 @@
 
 .navbar {
     width: -webkit-fill-available;
-    height: 117px;
+    /* height: 117px; */
 }
 
-.btn-primary {
+.nav-btns{
     /* margin-right: 50px; */
     background-color: #E8EEFF;
 }
-.container-fluid{
+/* .container-fluid{
     position: relative;
     top: 25px;
  
-}
+} */
 
 a {
     font-size: 24px;
@@ -26,3 +26,4 @@ a {
 .h-wrapper{
     width: -webkit-fill-available;
 }
+

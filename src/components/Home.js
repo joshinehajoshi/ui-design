@@ -4,6 +4,9 @@ import Sidebar from './Sidebar';
 import Target from './Target';
 import Header from './Header'
 import MarketCard from './MarketCard';
+import Performance from './Performance';
+import InvestorDetails from './InvestorDetails';
+import SIP from './SIP';
 
 
 function Home() {
@@ -23,9 +26,9 @@ function Home() {
     <div className='row'>
     <div className='col-md-10'>
       <Target />
-      <Target />
-      <Target />
-      <Target />
+      <Performance />
+      <InvestorDetails />
+      <SIP />
     </div>
     <div className='col-md-2'>
      <MarketCard />

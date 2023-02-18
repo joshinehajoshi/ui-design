@@ -14,6 +14,9 @@ function Sidebar({ isOpen }) {
         <li>111111111</li>
       </ul>
       </div>
+      <div className="sidebar-footer">
+        <h4>Hello</h4>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.sip-header {
+margin: 14px;
+}
+
+.sip {
+}
+
+.sip-header-wrapper{
+    border-right: 1px solid gray;
+}
+
+.sip-card-text-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sip-card-text-btn{
+    width: 100%;
+    background-color: blue;
+    padding: 15px;
+}

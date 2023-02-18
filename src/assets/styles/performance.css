@@ -1,0 +1,55 @@
+.dropdown-toggle {
+    background-color: rgb(41, 41, 247);
+    margin-right: 5px;
+}
+
+.performance-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 14px;
+    border-bottom: 1px solid gray;
+}
+
+.dropdown-wrapper {
+    display: flex;
+
+}
+
+.performance-content-graph {
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.performance-card-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 44%;
+    margin: 11px;
+}
+
+.card-body{
+    padding: 5px;
+}
+
+.performance-button-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.performance-btn{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    width: 44%;
+}

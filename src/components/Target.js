@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/styles/target.css";
 import TargetCards from "./TargetCards";
 import pieCart from '../assets/images/Ellipse103.png'
+import { TargetCardData } from "../Data/TargetCardData";
 
 function Target() {
   return (
@@ -13,10 +14,15 @@ function Target() {
               <h5>Your Tragets</h5>
             </div>
             <div className="target-card-wrapper">
-            <TargetCards />
-            <TargetCards />
-            <TargetCards />
-            <TargetCards />
+              {
+                TargetCardData?.map((item) => {
+                  return(
+                    <>
+                     <TargetCards img={item.img} data={item.data} id={item.id} color={item.color}  />
+                    </>
+                  )
+                })
+              }
             </div>
           </div>
           <div className="col-md-4 target-chart-wrapper">
