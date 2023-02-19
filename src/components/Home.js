@@ -31,10 +31,10 @@ function Home() {
       <SIP />
     </div>
     <div className='col-md-2'>
-     <MarketCard />
-     <MarketCard />
-     <MarketCard />
-     <MarketCard />
+     <MarketCard color = "#ececff"/>
+     <MarketCard color="#fff1d7"/>
+     <MarketCard color="#f3daff"/>
+     <MarketCard color="#ddf5ff"/>
     </div>
     </div>
     </div>

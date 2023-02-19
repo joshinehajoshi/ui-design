@@ -12,6 +12,9 @@
 .nav-btns{
     /* margin-right: 50px; */
     background-color: #E8EEFF;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 /* .container-fluid{
     position: relative;
@@ -27,3 +30,6 @@ a {
     width: -webkit-fill-available;
 }
 
+.profile-pic{
+    height: 24px;
+}

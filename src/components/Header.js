@@ -30,7 +30,7 @@ function Header({ openCloseHandler }) {
          {str} 
         </Button>
         <Container fluid>
-          <Navbar.Brand href="#">Hi User</Navbar.Brand>
+          <Navbar.Brand href="#"><h3>Hi User!</h3></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -46,7 +46,7 @@ function Header({ openCloseHandler }) {
                 <img src={notification}></img>
               </Button>
               <Button className="nav-btns">
-                <img src={profile}></img>
+                <img className="profile-pic" src={profile}></img>
               </Button>
             </Form>
           </Navbar.Collapse>
